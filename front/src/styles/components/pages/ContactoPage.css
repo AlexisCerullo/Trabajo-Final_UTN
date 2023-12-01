@@ -1,0 +1,83 @@
+.contacto {
+    display: flex;
+    width: 90%;
+    height: 700px;
+    padding: 30px 0;
+}
+
+.contacto form {
+    width: 70%;
+    padding-left: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+}
+
+.contacto form label {
+    min-width: 100px;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.contacto form input {
+    min-width: 400px;
+    text-indent: 10px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+.contacto form textarea {
+    resize: none;
+    min-width: 800px;
+    text-indent: 10px;
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.contacto form input[type="submit"] {
+    min-width: 100px;
+    text-indent: 0;
+    cursor: pointer;
+    background: radial-gradient(rgb(200, 200, 200) 0%, rgb(200, 200, 200) 50%, rgb(200, 200, 200) 70%, rgb(50, 50, 50) 100%);
+}
+
+.contacto form input[type="submit"]:active {
+    background: radial-gradient(rgb(200, 200, 200) 0%, rgb(200, 200, 200) 50%, rgb(200, 200, 200) 60%, rgb(100, 100, 100) 70%, rgb(50, 50, 50) 100%);
+    box-shadow: 5px 3px 3px;
+}
+
+.otros-medios {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    margin: 40px;
+    text-align: center;
+}
+
+.otros-medios h2 {
+    text-decoration: underline;
+    color: rgb(148, 0, 0);
+}
+
+.otros-medio h2,
+.redes {
+    margin-top: 70px;
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.redes img {
+    width: 80px;
+}

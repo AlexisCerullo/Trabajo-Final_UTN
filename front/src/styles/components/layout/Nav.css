@@ -1,0 +1,83 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+
+.color-nav {
+    background: linear-gradient(180deg, black 0%, rgb(148, 0, 0) 50%, red 100%);
+}
+
+.fondo1 {
+    background-color: red;
+}
+
+.fondo2 {
+    background-color: black;
+}
+
+.fondo3 {
+    background-color: blue;
+}
+
+header,
+header a img,
+header h1,
+nav {
+    display: inline-block;
+}
+
+header a img {
+    height: 100px;
+    position: relative;
+    top: 35px;
+}
+
+header h1 {
+    color: #ddd;
+    position: relative;
+    padding: 35px 0;
+}
+
+nav {
+    padding-left: 10%;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul a {
+    flex-grow: 1;
+    border: 3px solid black;
+    text-decoration: none;
+}
+
+.borde-izquierdo {
+    border-radius: 45px 0 0 45px;
+}
+
+.borde-derecho {
+    border-radius: 0 45px 45px 0;
+}
+
+nav ul a li {
+    min-width: 120px;
+    color: #ddd;
+    display: block;
+    padding: 15px;
+    text-align: center;
+    margin: 10px;
+}
+
+nav ul a:hover {
+    background: radial-gradient(rgb(148, 0, 0) 0%, rgb(148, 0, 0) 50%, rgb(70, 0, 0) 100%);
+}
+
+.activo {
+    background: radial-gradient(rgb(148, 0, 0) 0%, rgb(148, 0, 0) 50%, rgb(0, 0, 0) 100%);
+}

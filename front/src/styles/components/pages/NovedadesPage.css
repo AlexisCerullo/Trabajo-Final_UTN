@@ -1,0 +1,45 @@
+.novedades {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-bottom: 5vh;
+}
+
+.novedades h1 {
+    font-size: 8vh;
+}
+
+.novedad {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    border: 3px solid black;
+}
+
+.contenido {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.centrado {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.novedad .contenido img {
+    margin-top: 1vh;
+}
+
+.cuerpo {
+    margin-top: 3vh;
+}

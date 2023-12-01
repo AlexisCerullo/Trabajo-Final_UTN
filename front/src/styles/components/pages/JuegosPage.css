@@ -1,0 +1,26 @@
+.contenido-juego {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.juego {
+    border: 5px solid black;
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+}
+
+.juego img {
+    margin: 30px;
+    height: 300px;
+}
+
+.logos {
+    display: flex;
+    gap: 30px;
+}
+
+.juego .logo {
+    height: 75px;
+}

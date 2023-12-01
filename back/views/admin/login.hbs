@@ -1,0 +1,21 @@
+<div class="contenedor holder login">
+    <div class="contenido">
+        <form action="/admin/login" method="post">
+            <h2>Inicio de sesión</h2>
+            <div>
+                <div>
+                    <input type="text" id="inputUser" placeholder="Usuario" name="usuario">
+                </div>
+            </div>
+            <div>
+                <div>
+                    <input type="password" id="inputPassword" placeholder="Contraseña" name="password">
+                </div>
+            </div>
+            <button type="submit">Ingresar</button>
+            {{#if error}}
+            <p class="error">Usuario y/o contraseña incorrectos</p>
+            {{/if}}
+        </form>
+    </div>
+</div>

@@ -1,0 +1,33 @@
+<div class="contenedor holder">
+    <div class="contenido">
+        <form action="/admin/novedades/agregar" method="post" enctype="multipart/form-data">
+            <h2>Agregar nueva novedad</h2>
+            <div>
+                <div>
+                    <input type="text" placeholder="Titulo" name="titulo">
+                </div>
+            </div>
+            <div>
+                <div>
+                    <textarea class="subtitulo" type="text" placeholder="Subtitulo" name="subtitulo"></textarea>
+                </div>
+            </div>
+            <div>
+                <div class="centrado">
+                    <label class="label-imagen" for="imagen">Inserte una imagen: 
+                        <input class="imagen" type="file" name="imagen" id="imagen">
+                    </label>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <textarea class="cuerpo" type="text" placeholder="Cuerpo" name="cuerpo"></textarea>
+                </div>
+            </div>
+            <button type="submit">Guardar</button>
+            {{#if error}}
+                <p class="error">{{message}}</p>
+            {{/if}}
+        </form>
+    </div>
+</div>
